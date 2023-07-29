@@ -69,4 +69,7 @@ div.grid(row=4, column=3)
 fin = customtkinter.CTkButton(root, text="=", command=button_callback ,width=60)
 fin.grid(row=4, column=2)
 
+dell = customtkinter.CTkButton(root, text="del", command=button_callback ,width=60)
+dell.grid(row=4, column=0)
+
 root.mainloop()
