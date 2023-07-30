@@ -54,22 +54,22 @@ button_0.grid(row=4, column=1,)
 
 """----------------------------operetions----------------------------"""
 
-add = customtkinter.CTkButton(root, text="+", command=button_callback ,width=60)
+add = customtkinter.CTkButton(root, text="+", command=button_callback ,width=60 ,fg_color="#f26400")
 add.grid(row=1, column=3)
 
-sub = customtkinter.CTkButton(root, text="-", command=button_callback ,width=60)
+sub = customtkinter.CTkButton(root, text="-", command=button_callback ,width=60 ,fg_color="#f26400")
 sub.grid(row=2, column=3)
 
-mul = customtkinter.CTkButton(root, text="*", command=button_callback ,width=60)
+mul = customtkinter.CTkButton(root, text="*", command=button_callback ,width=60 ,fg_color="#f26400")
 mul.grid(row=3, column=3)
 
-div = customtkinter.CTkButton(root, text="%", command=button_callback ,width=60)
+div = customtkinter.CTkButton(root, text="%", command=button_callback ,width=60 ,fg_color="#f26400")
 div.grid(row=4, column=3)
 
-fin = customtkinter.CTkButton(root, text="=", command=button_callback ,width=60)
+fin = customtkinter.CTkButton(root, text="=", command=button_callback ,width=60 ,fg_color="#f26400")
 fin.grid(row=4, column=2)
 
-dell = customtkinter.CTkButton(root, text="del", command=button_callback ,width=60)
+dell = customtkinter.CTkButton(root, text="del", command=button_callback ,width=60 ,fg_color="red")
 dell.grid(row=4, column=0)
 
 root.mainloop()
